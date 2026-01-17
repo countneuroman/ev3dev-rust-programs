@@ -1,0 +1,6 @@
+/target
+/vendor
+.DS_Store
+
+# VSCode settings
+.vscode/
