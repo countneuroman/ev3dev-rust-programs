@@ -27,3 +27,6 @@ deploy:
 
 run:
 	$(SSH_PATH) $(TARGET) brickrun -r ./$(ARTIFACT)
+
+build-image:
+	docker build -t ev3-rust:latest .
